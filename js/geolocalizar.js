@@ -43,7 +43,7 @@ $(function(){
     });
   };
 
- function compactar(){
+ function ruta_directa(){
    // borra todas las rutas y todos los marcadores
    map.removePolylines();
    map.removeMarkers();
@@ -62,6 +62,6 @@ $(function(){
     map.addMarker({ lat: lat, lng: lng});
  };
 
-  $("#compactar").on('click', compactar);
+  $("#ruta_directa").on('click', ruta_directa);
   geolocalizar();
 });

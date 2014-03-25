@@ -14,24 +14,12 @@ body{
   background: rgba(0,255,0,0.5); /* verde si no hay mapa */
 }
 
-#compactar{
-  margin: 0;
-  padding: 0;
+#ruta_directa{
   position: absolute; /* posición absoluta a navegador */
   top: 100px;             /* ajusta a borde de navegador */
   right: 5%;
   height: 40px;
-  color: blue;
-  background-color: #a4d3ff;
   
-  /* BORDES */
-  /*para Firefox*/
-  -moz-border-radius: 5px 5px 5px 5px;
-  /*para Safari y Chrome*/
-  -webkit-border-radius: 5px 5px 5px 5px;
-  /* para Opera */
-  border-radius: 5px 5px 5px 5px;
-
   /* SOMBRA */
   -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
