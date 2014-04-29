@@ -53,29 +53,29 @@
     ================================================== -->
 
     <div class="container">
-      <form id="myForm" class="form-signin" role="form" action="" method="POST">
+      <form id="myForm" class="form-signin" role="form" action="#">
       <h2 class="form-signin-heading">Formulario</h2>
         <div class="input-group">
           <span class="input-group-addon">
             <span class="glyphicon glyphicon-user"></span>
           </span>
-          <input type="text" class="form-control" placeholder="Nombre" id="nombre" required autofocus>
+          <input type="text" class="form-control" placeholder="Nombre" id="nombre" name="nombre" required autofocus>
         </div>
         <div class="input-group">
           <span class="input-group-addon">@</span>
-          <input type="email" class="form-control" placeholder="E-mail" id="email" required>
+          <input type="email" class="form-control" placeholder="E-mail" id="email" name="email" required>
         </div>
         <div class="input-group">
           <span class="input-group-addon">
             <span class="glyphicon glyphicon-earphone"></span>
           </span>
-          <input type="text" class="form-control" placeholder="Teléfono" id="telefono" required>
+          <input type="text" class="form-control" placeholder="Teléfono" id="telefono" name="telefono" required>
         </div>
         <div class="input-group">
           <span class="input-group-addon">
             <span class="glyphicon glyphicon-pencil"></span>
           </span>
-          <textarea class="form-control" placeholder="Comentarios" id="comentarios" required rows="5"></textarea>
+          <textarea class="form-control" placeholder="Comentarios" id="comentarios" name="comentarios" required rows="5"></textarea>
         </div>
         <button type="submit" class="btn btn-lg btn-primary btn-block">Enviar</button>
       </form>
