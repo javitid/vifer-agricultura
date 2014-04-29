@@ -8,11 +8,15 @@ $(document).ready(function() {
             type: "POST",
             data: $(this).serialize(),
 
-            success: function(data){
-                bootbox.alert(data);
+            success: function(){
+                bootbox.alert("Formulario enviado", function() {
+                    console.log("Formulario enviado");
+                });
             },
             error: function(){
-            	bootbox.alert("Error al enviar formulario!");
+                bootbox.alert("Error al enviar formulario!", function() {
+                    console.log("Error al enviar formulario!");
+                });
             }
         });
 	});
