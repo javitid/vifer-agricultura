@@ -8,9 +8,9 @@ $(document).ready(function() {
             type: "POST",
             data: $(this).serialize(),
 
-            success: function(){
+            success: function(data){
                 bootbox.alert("Formulario enviado", function() {
-                    console.log("Formulario enviado");
+                    console.log("Formulario enviado: " + data);
                 });
             },
             error: function(){
